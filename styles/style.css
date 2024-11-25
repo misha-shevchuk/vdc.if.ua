@@ -1110,7 +1110,7 @@ footer nav {
 }
 @media screen and (max-width: 550px) {
   .logo-container img {
-    width: 80px;
+    width: 120px;
   }
   .footer-contacts {
     flex-direction: column-reverse;
