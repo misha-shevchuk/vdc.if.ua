@@ -1,0 +1,38 @@
+@mixin flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin read-btn-style($light-theme: false) {
+  @if $light-theme {
+    a {
+      background: white;
+      color: black;
+      font-size: 13px;
+      position: relative;
+      display: flex;
+      img {
+        margin-left: 10px;
+        width: 15px;
+        transition: 0.3s;
+
+        margin-top: 2px;
+      }
+      &:hover {
+        img {
+          transform: translateX(5px);
+        }
+      }
+    }
+  } @else {
+    @include flex-center;
+    a {
+      background: black;
+      padding: 13px 39px;
+      color: white;
+      @include flex-center;
+      font-size: 13px;
+    }
+  }
+}
