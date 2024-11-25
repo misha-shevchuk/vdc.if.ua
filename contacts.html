@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="side-bar">
+            <div class="side-bar-nav">
+              <div class="close-bar">
+                <img src="img/close-116.svg" alt="" />
+              </div>
+            </div>
+            <div class="side-bar-content">
+              <ul class="side-bar-links">
+                <li class="menu-item"><a href="./index.html" class="menu-link">головна</a></li>
+                <li class="menu-item"><a href="./services.html" class="menu-link">послуги</a></li>
+                <li class="menu-item"><a href="./projects.html" class="menu-link">для клієнтів</a></li>
+                <li class="menu-item"><a href="./contacts.html" class="menu-link">контакти</a></li>
+              </ul>
+            </div>
+            <!-- <ul class="side-bar-media">
+              <li class="">
+                <a href="#" class="social-link"
+                  ><img src="img/facebook.svg" alt="Facebook icon" class="social-icon"
+                /></a>
+              </li>
+              <li class="">
+                <a href="#" class="social-link"
+                  ><img src="img/inst.svg" alt="Facebook icon" class="social-icon"
+                /></a>
+              </li>
+              <li class="">
+                <a href="#" class="social-link"
+                  ><img src="img/twitter.svg" alt="Facebook icon" class="social-icon"
+                /></a>
+              </li>
+            </ul> -->
+          </div>
+        <header class="site-header contacts-header" style="height: auto;">
+          <nav class="main-navigation">
+            <a href="index.html" class="logo-container">
+              <img src="./img/logo.svg" alt="Your Logo" class="site-logo" />
+            </a>
+            <div class="main-links">
+              <ul class="main-menu">
+                <li class="menu-item"><a href="./index.html" class="menu-link">головна</a></li>
+                <li class="menu-item"><a href="./services.html" class="menu-link">послуги</a></li>
+                <li class="menu-item"><a href="./projects.html" class="menu-link">для клієнтів</a></li>
+                <li class="menu-item"><a href="./contacts.html" class="menu-link">контакти</a></li>
+              </ul>
+              <!-- <div class="social-media">
+                <ul class="social-menu">
+                  <li class="social-item">
+                    <a href="#" class="social-link">
+                      <svg width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.72197 2.49023H7V0.105469C6.77992 0.0732422 6.02159 0 5.13864 0C3.29583 0 2.03371 1.24219 2.03371 3.52441V5.625H0V8.29102H2.03371V15H4.52614V8.29102H6.47765L6.78788 5.625H4.52614V3.78809C4.52614 3.01758 4.7197 2.49023 5.72197 2.49023Z" fill="black"/>
+                        </svg>                        
+                  </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="#" class="social-link">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.49815 3.62495C5.36886 3.62495 3.65137 5.32827 3.65137 7.43999C3.65137 9.55171 5.36886 11.255 7.49815 11.255C9.62744 11.255 11.3449 9.55171 11.3449 7.43999C11.3449 5.32827 9.62744 3.62495 7.49815 3.62495ZM7.49815 9.92026C6.12215 9.92026 4.99724 8.80796 4.99724 7.43999C4.99724 6.07202 6.1188 4.95972 7.49815 4.95972C8.8775 4.95972 9.99906 6.07202 9.99906 7.43999C9.99906 8.80796 8.87415 9.92026 7.49815 9.92026ZM12.3995 3.4689C12.3995 3.96362 11.9978 4.35874 11.5023 4.35874C11.0034 4.35874 10.605 3.9603 10.605 3.4689C10.605 2.97749 11.0068 2.57905 11.5023 2.57905C11.9978 2.57905 12.3995 2.97749 12.3995 3.4689ZM14.9473 4.37202C14.8904 3.18003 14.6159 2.12417 13.7354 1.25425C12.8582 0.384326 11.7935 0.112061 10.5916 0.0522949C9.35291 -0.0174316 5.64005 -0.0174316 4.40131 0.0522949C3.20275 0.10874 2.13811 0.381006 1.2576 1.25093C0.377095 2.12085 0.105913 3.17671 0.0456499 4.3687C-0.0246567 5.59722 -0.0246567 9.27944 0.0456499 10.508C0.102565 11.7 0.377095 12.7558 1.2576 13.6257C2.13811 14.4957 3.1994 14.7679 4.40131 14.8277C5.64005 14.8974 9.35291 14.8974 10.5916 14.8277C11.7935 14.7712 12.8582 14.499 13.7354 13.6257C14.6125 12.7558 14.887 11.7 14.9473 10.508C15.0176 9.27944 15.0176 5.60054 14.9473 4.37202ZM13.347 11.8261C13.0859 12.4769 12.5803 12.9783 11.9208 13.2406C10.9331 13.6291 8.58958 13.5394 7.49815 13.5394C6.40672 13.5394 4.05982 13.6257 3.07553 13.2406C2.41933 12.9816 1.9138 12.4802 1.64931 11.8261C1.2576 10.8466 1.348 8.52241 1.348 7.43999C1.348 6.35757 1.26095 4.03003 1.64931 3.05386C1.91045 2.40308 2.41599 1.90171 3.07553 1.6394C4.06317 1.25093 6.40672 1.34058 7.49815 1.34058C8.58958 1.34058 10.9365 1.25425 11.9208 1.6394C12.577 1.89839 13.0825 2.39976 13.347 3.05386C13.7387 4.03335 13.6483 6.35757 13.6483 7.43999C13.6483 8.52241 13.7387 10.85 13.347 11.8261Z" fill="black"/>
+                        </svg>
+                        
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="#" class="social-link"
+                      ><svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.2493 3.44097C15.2601 3.59198 15.2601 3.74302 15.2601 3.89403C15.2601 8.49997 11.7547 13.8071 5.34785 13.8071C3.37402 13.8071 1.54044 13.2354 -0.00195312 12.243C0.27849 12.2754 0.54811 12.2862 0.839343 12.2862C2.46799 12.2862 3.96725 11.736 5.16448 10.7976C3.63289 10.7652 2.34936 9.76205 1.90713 8.38133C2.12287 8.41367 2.33857 8.43526 2.5651 8.43526C2.87788 8.43526 3.19069 8.39209 3.48189 8.31662C1.88559 7.99299 0.688315 6.59072 0.688315 4.8972V4.85407C1.15209 5.11295 1.69143 5.27475 2.26304 5.2963C1.32467 4.67065 0.709895 3.60277 0.709895 2.39464C0.709895 1.74745 0.882438 1.15417 1.18446 0.636404C2.89942 2.75061 5.47726 4.1313 8.36785 4.28234C8.31393 4.02346 8.28156 3.75381 8.28156 3.48414C8.28156 1.56407 9.83474 0 11.7654 0C12.7685 0 13.6745 0.420684 14.3109 1.10025C15.0982 0.949244 15.8532 0.657987 16.522 0.258885C16.2631 1.06791 15.713 1.74748 14.9904 2.17892C15.6915 2.10345 16.371 1.90925 16.9966 1.6396C16.5221 2.32993 15.9288 2.94475 15.2493 3.44097Z" fill="black"/>
+                        </svg>
+                        </a>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+            <div class="burger">
+              <div style="background: black;"></div>
+              <div style="background: black;"></div>
+              <div style="background: black;"></div>
+            </div>
+          </nav>
+        </header>
+        <main class="contacts-main">
+          <div class="contact-section">
+            <!-- <div class="contact-form-wrapper">
+                <div class="contact-form-container">
+                    <h1 class="contact-form-title">Зв’яжіться з нами</h1>
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <input type="text" class="contact-input" placeholder="Ім'я">
+                            <input type="text" class="contact-input" placeholder="Прізвище">
+                        </div>
+                        <textarea name="message" id="message" class="contact-textarea" placeholder="Ваше повідомлення"></textarea>
+                        <input type="submit" value="Надіслати" class="contact-submit-btn">
+                    </form>
+                </div>
+            </div> -->
+            <div class="contact-info-wrapper">
+                <div class="contact-info-container">
+                    <h1 class="contact-info-title">Контактна інформація</h1>
+                    <ul class="contact-info-list">
+                        <li class="contact-info-item">
+                            <h3 class="contact-info-heading">Номер телефону</h3>
+                            <!-- <p class="contact-info-text">+38 (050) 710 55 69</p> -->
+                            <a class="contact-info-text" href="tel:+38 (050) 710 55 69" type="tel">+38 (050) 710 55 69</a>
+                        </li>
+                        <li class="contact-info-item">
+                            <h3 class="contact-info-heading">Пошта</h3>
+                            <!-- <p class="contact-info-text">vdc_if@ukr.net</p> -->
+                            <a class="contact-info-text" href="mailto:vdc_if@ukr.net" type="email">vdc_if@ukr.net</a>
+                        </li>
+                        <li class="contact-info-item">
+                            <h3 class="contact-info-heading">Адреса</h3>
+                            <!-- <p class="contact-info-text">Україна,  обл., Івано-Франківський р-н, місто Івано-Франківськ, вул. Височана Семена, 47</p> -->
+                             <a
+                                href="https://www.google.com/maps/place/%D0%A2%D0%9E%D0%92+%D0%9D%D0%A2%D0%A6+%D0%9F%D1%80%D0%BE%D0%BC%D1%82%D0%B5%D1%85%D0%B4%D1%96%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0/@48.9104286,24.7255694,189m/data=!3m1!1e3!4m9!1m2!2m1!1z0KPQutGA0LDRl9C90LAsINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsCDQvtCx0LsuLCDQhtCy0LDQvdC-LdCk0YDQsNC90LrRltCy0YHRjNC60LjQuSDRgC3QvSwg0LzRltGB0YLQviDQhtCy0LDQvdC-LdCk0YDQsNC90LrRltCy0YHRjNC6LCDQstGD0LsuINCS0LjRgdC-0YfQsNC90LAg0KHQtdC80LXQvdCwLCA0Nw!3m5!1s0x4730c15e7d055555:0x3193b1fc68b0ca9b!8m2!3d48.910379!4d24.725888!16s%2Fg%2F11btlzhzz2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D"
+                                target="_blank"
+                                class="contact-info-text">
+                                Україна, обл., Івано-Франківський р-н, місто Івано-Франківськ, вул. Височана Семена, 47
+                            </a>
+                        </li>
+                    </ul>  
+                  <!-- <ul class="social-menu conctacts-social">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg width="7" height="15" viewBox="0 0 7 15" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.72197 2.49023H7V0.105469C6.77992 0.0732422 6.02159 0 5.13864 0C3.29583 0 2.03371 1.24219 2.03371 3.52441V5.625H0V8.29102H2.03371V15H4.52614V8.29102H6.47765L6.78788 5.625H4.52614V3.78809C4.52614 3.01758 4.7197 2.49023 5.72197 2.49023Z"/>
+                                </svg>
+                                
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.2493 3.44097C15.2601 3.59198 15.2601 3.74302 15.2601 3.89403C15.2601 8.49997 11.7547 13.8071 5.34785 13.8071C3.37402 13.8071 1.54044 13.2354 -0.00195312 12.243C0.27849 12.2754 0.54811 12.2862 0.839343 12.2862C2.46799 12.2862 3.96725 11.736 5.16448 10.7976C3.63289 10.7652 2.34936 9.76205 1.90713 8.38133C2.12287 8.41367 2.33857 8.43526 2.5651 8.43526C2.87788 8.43526 3.19069 8.39209 3.48189 8.31662C1.88559 7.99299 0.688315 6.59072 0.688315 4.8972V4.85407C1.15209 5.11295 1.69143 5.27475 2.26304 5.2963C1.32467 4.67065 0.709895 3.60277 0.709895 2.39464C0.709895 1.74745 0.882438 1.15417 1.18446 0.636404C2.89942 2.75061 5.47726 4.1313 8.36785 4.28234C8.31393 4.02346 8.28156 3.75381 8.28156 3.48414C8.28156 1.56407 9.83474 0 11.7654 0C12.7685 0 13.6745 0.420684 14.3109 1.10025C15.0982 0.949244 15.8532 0.657987 16.522 0.258885C16.2631 1.06791 15.713 1.74748 14.9904 2.17892C15.6915 2.10345 16.371 1.90925 16.9966 1.6396C16.5221 2.32993 15.9288 2.94475 15.2493 3.44097Z" fill="black" />
+                            </svg>    
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.49815 3.62495C5.36886 3.62495 3.65137 5.32827 3.65137 7.43999C3.65137 9.55171 5.36886 11.255 7.49815 11.255C9.62744 11.255 11.3449 9.55171 11.3449 7.43999C11.3449 5.32827 9.62744 3.62495 7.49815 3.62495ZM7.49815 9.92026C6.12215 9.92026 4.99724 8.80796 4.99724 7.43999C4.99724 6.07202 6.1188 4.95972 7.49815 4.95972C8.8775 4.95972 9.99906 6.07202 9.99906 7.43999C9.99906 8.80796 8.87415 9.92026 7.49815 9.92026ZM12.3995 3.4689C12.3995 3.96362 11.9978 4.35874 11.5023 4.35874C11.0034 4.35874 10.605 3.9603 10.605 3.4689C10.605 2.97749 11.0068 2.57905 11.5023 2.57905C11.9978 2.57905 12.3995 2.97749 12.3995 3.4689ZM14.9473 4.37202C14.8904 3.18003 14.6159 2.12417 13.7354 1.25425C12.8582 0.384326 11.7935 0.112061 10.5916 0.0522949C9.35291 -0.0174316 5.64005 -0.0174316 4.40131 0.0522949C3.20275 0.10874 2.13811 0.381006 1.2576 1.25093C0.377095 2.12085 0.105913 3.17671 0.0456499 4.3687C-0.0246567 5.59722 -0.0246567 9.27944 0.0456499 10.508C0.102565 11.7 0.377095 12.7558 1.2576 13.6257C2.13811 14.4957 3.1994 14.7679 4.40131 14.8277C5.64005 14.8974 9.35291 14.8974 10.5916 14.8277C11.7935 14.7712 12.8582 14.499 13.7354 13.6257C14.6125 12.7558 14.887 11.7 14.9473 10.508C15.0176 9.27944 15.0176 5.60054 14.9473 4.37202ZM13.347 11.8261C13.0859 12.4769 12.5803 12.9783 11.9208 13.2406C10.9331 13.6291 8.58958 13.5394 7.49815 13.5394C6.40672 13.5394 4.05982 13.6257 3.07553 13.2406C2.41933 12.9816 1.9138 12.4802 1.64931 11.8261C1.2576 10.8466 1.348 8.52241 1.348 7.43999C1.348 6.35757 1.26095 4.03003 1.64931 3.05386C1.91045 2.40308 2.41599 1.90171 3.07553 1.6394C4.06317 1.25093 6.40672 1.34058 7.49815 1.34058C8.58958 1.34058 10.9365 1.25425 11.9208 1.6394C12.577 1.89839 13.0825 2.39976 13.347 3.05386C13.7387 4.03335 13.6483 6.35757 13.6483 7.43999C13.6483 8.52241 13.7387 10.85 13.347 11.8261Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </li>
+                  </ul> -->
+                </div>
+            </div>
+        </div>
+        </main>
+      <footer>
+        <img src="" alt="" class="header-image" />
+        <nav class="main-navigation">
+          <a href="index.html" class="logo-container">
+            <img src="./img/logo-light.svg" alt="Your Logo" class="site-logo" />
+          </a>
+          <div class="main-links footer-head-links">
+            <ul class="main-menu">
+              <li class="menu-item"><a href="./index.html" class="menu-link">головна</a></li>
+              <li class="menu-item"><a href="./services.html" class="menu-link">послуги</a></li>
+              <li class="menu-item"><a href="./projects.html" class="menu-link">для клієнтів</a></li>
+              <li class="menu-item"><a href="./contacts.html" class="menu-link">контакти</a></li>
+            </ul>
+            <div class="social-media">
+              <ul class="social-menu">
+                <li class="social-item">
+                  <a href="#" class="social-link"><img src="img/facebook.svg" alt="Facebook icon" class="social-icon" /></a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link"><img src="img/inst.svg" alt="Facebook icon" class="social-icon" /></a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link"><img src="img/twitter.svg" alt="Facebook icon" class="social-icon" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="footer_social">
+          <!-- <p>Україна, Івано-Франківська обл., Івано-Франківський р-н, місто Івано-Франківськ, вул. Височана Семена, 47</p> -->
+          <a href="https://www.google.com/maps/place/%D0%A2%D0%9E%D0%92+%D0%9D%D0%A2%D0%A6+%D0%9F%D1%80%D0%BE%D0%BC%D1%82%D0%B5%D1%85%D0%B4%D1%96%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0/@48.9104286,24.7255694,189m/data=!3m1!1e3!4m9!1m2!2m1!1z0KPQutGA0LDRl9C90LAsINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsCDQvtCx0LsuLCDQhtCy0LDQvdC-LdCk0YDQsNC90LrRltCy0YHRjNC60LjQuSDRgC3QvSwg0LzRltGB0YLQviDQhtCy0LDQvdC-LdCk0YDQsNC90LrRltCy0YHRjNC6LCDQstGD0LsuINCS0LjRgdC-0YfQsNC90LAg0KHQtdC80LXQvdCwLCA0Nw!3m5!1s0x4730c15e7d055555:0x3193b1fc68b0ca9b!8m2!3d48.910379!4d24.725888!16s%2Fg%2F11btlzhzz2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D"
+            target="_blank">
+            Україна, Івано-Франківська обл., Івано-Франківський р-н, місто Івано-Франківськ, вул. Височана Семена, 47
+          </a>
+          <ul class="social-menu">
+            <li class="social-item">
+              <a href="#" class="social-link"><img src="img/facebook.svg" alt="Facebook icon" class="social-icon" /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link"><img src="img/inst.svg" alt="Facebook icon" class="social-icon" /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link"><img src="img/twitter.svg" alt="Facebook icon" class="social-icon" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sub_footer">
+          <p>@2024 All right reserveed</p>
+          <ul class="footer-contacts">
+            <li class="footer-contacts-email">
+              <img src="./img/email.svg" alt="" />
+              <!-- <p>vdc_if@ukr.net</p> -->
+              <a href="mailto:vdc_if@ukr.net">vdc_if@ukr.net</a>
+            </li>
+            <li>
+              <img src="./img/phone.svg" alt="" />
+              <!-- <p>+38 (050) 710 55 69</p> -->
+              <a href="tel:+38 (050) 710 55 69">+38 (050) 710 55 69</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="main-navigation footer-s-nav">
+          <ul class="main-menu">
+            <li class="menu-item"><a href="./index.html" class="menu-link">головна</a></li>
+            <li class="menu-item"><a href="./services.html" class="menu-link">послуги</a></li>
+            <li class="menu-item"><a href="./projects.html" class="menu-link">для клієнтів</a></li>
+            <li class="menu-item"><a href="./contacts.html" class="menu-link">контакти</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
