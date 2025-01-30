@@ -566,6 +566,7 @@ footer nav {
 
 .projects-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 40px;
@@ -575,6 +576,11 @@ footer nav {
   display: grid;
   gap: 30px;
   grid-template-columns: 1fr 1fr;
+}
+
+.projects__wide {
+  display: block;
+margin-top: 30px;
 }
 
 .projects-main {
@@ -600,6 +606,11 @@ footer nav {
 .project-item {
   max-width: 500px;
 }
+
+.project-item__wide {
+  width: 1030px;
+}
+
 .project-item img {
   max-width: 500px;
   min-height: 300px;
@@ -608,13 +619,28 @@ footer nav {
 .project-item:hover {
   cursor: pointer;
 }
-.project-item:hover .project-info {
+
+.project-item:hover .project-info{
   background: #202020;
 }
-.project-item:hover .project-info-text h3 {
+
+.project-item:hover .project-info-text h3{
   color: white;
 }
-.project-item:hover .project-info-text p {
+
+.project-item:hover .project-info-text p{
+  color: white;
+}
+
+.project-item__wide:hover .project-info{
+  background: #202020;
+}
+
+.project-item__wide:hover .project-info-text h3{
+  color: white;
+}
+
+.project-item__wide:hover .project-info-text p{
   color: white;
 }
 
@@ -949,6 +975,9 @@ footer nav {
   }
   .services {
     grid-template-columns: 1fr 1fr;
+  }
+  .project-item__wide {
+    width: 500px;
   }
 }
 @media screen and (max-width: 1250px) {
