@@ -615,6 +615,10 @@ margin-top: 30px;
   max-width: 500px;
   min-height: 300px;
 }
+.project-item__wide img {
+  max-width: 1030px;
+  min-height: 300px;
+}
 
 .project-item:hover {
   cursor: pointer;
@@ -977,6 +981,9 @@ margin-top: 30px;
     grid-template-columns: 1fr 1fr;
   }
   .project-item__wide {
+    width: 500px;
+  }
+  .project-item__wide img{
     width: 500px;
   }
 }
