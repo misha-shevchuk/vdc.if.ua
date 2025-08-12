@@ -609,6 +609,7 @@ margin-top: 30px;
 
 .project-item__wide {
   width: 1030px;
+  margin-bottom: 30px;
 }
 
 .project-item img {
